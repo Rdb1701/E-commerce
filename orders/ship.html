@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="../images/lazana-modified.png" type="image/x-icon">
+    <title>LAZAÑA</title>
+    <style>
+        .nav-item:hover {
+            background-color: #F15412;
+        }
+    </style>
+</head>
+
+<body style="font-family: 'Uchen', serif; background-color: #E9DAC1;">
+    <nav class="navbar navbar-expand-lg bg-dark p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white"> <img src="../images/lazana-modified.png" width="10%"> LAZAÑA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Products/men.html">Men</a></li>
+                            <li><a class="dropdown-item" href="../Products/women.html">Women</a></li>
+
+                            <li><a class="dropdown-item" href="../Products/kids.html">Kids</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            GADGETS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Gadgets/laptops.html">Laptops</a></li>
+                            <li><a class="dropdown-item" href="../Gadgets/mobile.html">Mobile</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white badge1" aria-current="page" href="../orders.html"
+                            value=7>ORDERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../aboutus.html">ABOUT US</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+
+                    <a class="nav-link active text-white" aria-current="page" href="../cart.html">
+                        <i class="fa badge" style="font-size:24px" value=5>&#xf07a;</i></a>
+
+                </div>
+
+            </div>
+        </div>
+    </nav><br>
+
+
+            <div class="d-flex container">
+              
+
+                <a href="../orders.html" class="text-center btn btn-danger" style="margin-left: 10%;"><i class="fas fa-clock"></i><br>To Ship</a>
+
+                <a href="ship.html" class="text-center btn btn-warning" style="margin-left: 10%;"><i class="fas fa-truck-moving"></i><br>Shipped</a>
+                
+                <a href="returns.html" class="text-center btn btn-danger" style="margin-left: 10%;"><i class="fas fa-money-bill"></i><br>Returns</a>
+
+                <a href="completed.html" class="text-center btn btn-success" style="margin-left: 10%;"><i class="fas fa-check"></i><br>Completed</a>
+
+            </div><br><br>
+
+
+
+
+    <div class="container">
+        <h2 class="container-fluid text-danger">SHIPPED</h2>
+        <hr>
+    
+
+    <div class="d-flex">
+        <div class="card mb-3" style="max-width: 540px; margin-right: 20px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/laptops/12.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">ASUS TUF</h5>
+                        <p class="card-text"><small class="text-muted">Black x1</small></p>
+                        <h2 class="card-text"><small class="text-dark">₱70,000.00</small></h2>
+                        <span class="bg-warning text-white"
+                            style="padding: 3px 8px; border-radius: 5px; float: right;">SHIPPED...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/mobile/18.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">SAMSUNG S22</h5>
+                        <p class="card-text"><small class="text-muted">x1</small></p>
+                        <h2 class="card-text"><small class="text-dark">₱89,457.00</small></h2>
+                        
+                        <span class="bg-warning text-white"
+                            style="padding: 3px 8px; border-radius: 5px; float: right;">SHIPPED...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    </div>
+
+
+
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/sweetalert.min.js"></script>
+    <script src="../bootstrap/bootstrap.bundle.min.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+
+
+
+.wrapper1{
+  height: 120px;
+  min-width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper1 span{
+  width: 100%;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+.wrapper1 span.num{
+  font-size: 50px;
+  border-right: 2px solid rgba(0,0,0,0.2);
+  border-left: 2px solid rgba(0,0,0,0.2);
+  pointer-events: none;
+}
+
+.badge:after {
+  content: attr(value);
+  font-size: 12px;
+  background: red;
+  border-radius: 50%;
+  padding: 3px;
+  position: relative;
+  left: -8px;
+  top: -10px;
+  opacity: 0.9;
+}
+
+.badge1:after {
+  content: attr(value);
+  font-size: 10px;
+  background: red;
+  border-radius: 50%;
+  padding: 3px;
+  position: relative;
+  left: -8px;
+  top: -10px;
+  opacity: 0.9;
+}

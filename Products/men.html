@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+  <link rel="shortcut icon" href="../images/lazana-modified.png" type="image/x-icon">
+  <title>LAZAÑA</title>
+  <style>
+    .nav-item:hover {
+      background-color: #F15412;
+    }
+  </style>
+</head>
+
+<body style="font-family: 'Uchen', serif; background-color: #E9DAC1;">
+  <nav class="navbar navbar-expand-lg bg-dark p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white"> <img src="../images/lazana-modified.png" width="10%"> LAZAÑA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="../index.html">HOME</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              PRODUCTS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="men.html">Men</a></li>
+              <li><a class="dropdown-item" href="women.html">Women</a></li>
+
+              <li><a class="dropdown-item" href="kids.html">Kids</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              GADGETS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Gadgets/laptops.html">Laptops</a></li>
+              <li><a class="dropdown-item" href="../Gadgets/mobile.html">Mobile</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white badge1" aria-current="page" href="../orders.html" value=7>ORDERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="../aboutus.html">ABOUT US</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <style media="screen">
+            .badge:after {
+              content: attr(value);
+              font-size: 12px;
+              background: red;
+              border-radius: 50%;
+              padding: 3px;
+              position: relative;
+              left: -8px;
+              top: -10px;
+              opacity: 0.9;
+            }
+          </style>
+          <a class="nav-link active text-white" aria-current="page" href="../cart.html">
+            <i class="fa badge" style="font-size:24px" value=5>&#xf07a;</i></a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!--------------------------- SECTION STARTS ------------------------------>
+  <!-- 1st three -->
+  <section>
+
+    <div class="text-center pb-5">
+
+      <h2>MEN'S PRODUCTS</h2>
+      <p class="p-pricing">Simple and affordable for your style.</p>
+      <hr>
+    </div>
+
+
+    <div class="row text-center d-flex " style="padding: 1% 8%;">
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>ETERNITY PERFUME</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/3.jpg" alt="" width="100%" height="390px;"><br>
+            <h2>₱500.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#First">Add to
+                Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>UNDER ARMOUR SHIRT</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/2.jpg" alt="" width="100%" height="390px;"><br>
+            <h2>₱350.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#Second">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>PLAIN WHITE SHIRT</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/4.jpg" alt="" width="100%" height="390px;"><br>
+            <h2>₱350.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#Third">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <!-- 2nd -->
+  <section>
+
+
+    <div class="row text-center d-flex " style="padding: 1% 8%;">
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>OXGN BLACK POLO</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/5.png" alt="" width="100%" height="390px"><br>
+            <h2>₱490.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#Fourth">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>MEN'S TROUSER</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/6.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱700.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#Fifth">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>TAILOR GUITAR</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/7.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱5,490.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#Six">Add to
+                Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- 3rd -->
+  <section>
+    <div class="row text-center d-flex " style="padding: 1% 8%;">
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>LEATHER BACKPACK</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/8.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱990.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#seven">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>COLLECTION BAG MENS</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/9.jpeg" alt="" width="100%" height="390px"><br>
+            <h2>₱400.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#eight">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>HOUSE SLIPPER</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/10.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱790.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#nine">Add to
+                Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- 4th -->
+  <section>
+    <div class="row text-center d-flex " style="padding: 1% 8%;">
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>CROCS BLUE</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/11.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱697.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#ten">Add to
+                Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>OLD SKOOL VANS</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/12.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱3,700.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#eleven">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>NIKE WHITE</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/13.webp" alt="" width="100%" height="390px"><br>
+            <h2>₱4,370.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#twelve">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- 5ht -->
+  <section>
+    <div class="row text-center d-flex " style="padding: 1% 8%;">
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>OXGN SHIRT FOR MEN</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/14.webp" alt="" width="100%" height="390px"><br>
+            <h2>₱499.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal"
+                data-bs-target="#thirteen">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>OXGN POLO FOR MEN</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/15.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱1,100.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal"
+                data-bs-target="#fourteen">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>CROCS GRAY</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/16.avif" alt="" width="100%" height="390px"><br>
+            <h2>₱2,215.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#fifteen">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- 6th -->
+  <section>
+    <div class="row text-center d-flex " style="padding: 1% 8%;">
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>WHITEPINK LONGSLEEVE</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/17.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱999.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#sixteen">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>FASHION EYEGLASS</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/18.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱120.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal"
+                data-bs-target="#seventeen">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>WHITE LONGSLEEVE</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/19.png" alt="" width="100%" height="390px"><br>
+            <h2>₱995.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal"
+                data-bs-target="#eighteen">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- 7th -->
+  <section>
+    <div class="row text-center d-flex " style="padding: 1% 8%;">
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>LONGSLEEVE BLACK</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/20.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱999.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal"
+                data-bs-target="#nineteen">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>GRAY SHORT</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/21.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱700.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#twenty">Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>GREEN SHORT</h3>
+          </div>
+          <div class="card-body">
+            <img src="../images/men/22.jpg" alt="" width="100%" height="390px"><br>
+            <h2>₱700.00</h2>
+            <div class="d-grid gap-2 ">
+              <button class="btn btn-danger btn-lg" onclick="buyNowClick()">Buy Now</button>
+              <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal"
+                data-bs-target="#twentyone">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <script src="../bootstrap/bootstrap.bundle.min.js" charset="utf-8"></script>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/sweetalert.min.js" charset="utf-8"></script>
+</body>
+
+</html>
+
+<!--------------------------------- FIRST PRODUCT MODAL------------------------------------------>
+<!-- Button trigger modal -->
+
+<div class="modal fade" id="First" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ETERNITY PERFUME</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/3.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- SECOND PRODUCT MODAL------------------------------------------>
+<!-- Button trigger modal -->
+
+<div class="modal fade" id="Second" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">UNDER ARMOUR SHIRT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/2.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick2()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------- THIRD PRODUCT MODAL------------------------------------------>
+<!-- Button trigger modal -->
+
+<div class="modal fade" id="Third" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PLAIN WHITE SHIRT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/3.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick3()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- FOURTH PRODUCT MODAL------------------------------------------>
+<!-- Button trigger modal -->
+
+<div class="modal fade" id="Fourth" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">OXGN BLACK POLO</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/5.png" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick4()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- FIFTH PRODUCT MODAL------------------------------------------>
+<!-- Button trigger modal -->
+
+<div class="modal fade" id="Fifth" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">MEN'S TROUSER</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/6.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick5()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- SIX PRODUCT MODAL------------------------------------------>
+<!-- Button trigger modal -->
+
+<div class="modal fade" id="Six" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">TAILOR'S GUITAR</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/7.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick6()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------- SEVEN PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="seven" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LEATHER BACKPACK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/8.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick7()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------- EIGHT PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="eight" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">COLLECTION BAG MENS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/9.jpeg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick8()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------- Nine PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="nine" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HOUSE SLIPPER</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/10.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick9()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!--------------------------------- TEN PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="ten" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">CROCS BLUE</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/11.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick10()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- ELEVEN PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="eleven" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">OLD SKOOL VANS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/12.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick11()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------- twelve PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="twelve" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">NIKE WHITE</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/13.webp" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick12()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- Thirteen PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="thirteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">OXGN SHIRT FOR MEN</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/14.webp" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick13()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------- Fourteen PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="fourteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">OXGN POLO FOR MEN</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/15.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick14()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------- Fifteen PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="fifteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">CROCS GRAY</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/16.avif" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick15()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- sixteeen PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="sixteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">WHITEPINK LONGSLEEVE</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/17.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick16()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- seventeen PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="seventeen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">FASHION EYEGLASS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/18.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick17()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- eighteenPRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="eighteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">WHITE LONGSLEEVE</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/19.png" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick18()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- nineteen PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="nineteen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LONGSLEEVE BLACK</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/20.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick19()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------- twenty PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="twenty" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">GRAY SHORT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/21.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick20()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------- twentyone PRODUCT MODAL------------------------------------------>
+<div class="modal fade" id="twentyone" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">GREEN SHORT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/men/22.jpg" alt="" width="100%" height="390px;"><br>
+        <span>QUANTITY:</span>
+        <input type="number" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buttonClick21()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- BUY MODAL -->
+
+<div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <span class="text-center">QUANTITY:</span>
+        <div class="wrapper1 text-center">
+          <span class="minus">-</span>
+          <span class="num">01</span>
+          <span class="plus">+</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="buyInfo()">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BUY NOW MODAL INFO -->
+<div class="modal fade" id="buyInfo">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- username, lname, fname, gender, phone, user_type_id -->
+
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold">Shipping Address</h3>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-lable="close">&times;</button>
+      </div>
+      <form id="form1">
+        <div class="modal-body mx-4">
+          <div class="md-form">
+            <label data-error="wrong" data-success="right">Name</label>
+            <span class="text-danger">*</span></label>
+            <input type="text" class="form-control validate" id="cp_username" required>
+          </div>
+          <div class="md-form">
+            <label data-error="wrong" data-success="right">Number</label>
+            <span class="text-danger">*</span></label>
+            <input type="number" class="form-control validate"  required><br>
+          </div>
+                    <h3 class="text-center">Address Information</h3>
+          <div class="md-form">
+            <label data-error="wrong" data-success="right">Region</label>
+            <span class="text-danger">*</span></label>
+            <input type="text" class="form-control validate" id="cp_re_new_password" required>
+          </div>
+          <div class="md-form">
+            <div class="md-form">
+              <label data-error="wrong" data-success="right">City</label>
+              <span class="text-danger">*</span></label>
+              <input type="text" class="form-control validate"  required>
+            </div>
+            <div class="md-form">
+            <label data-error="wrong" data-success="right">Address</label>
+            <span class="text-danger">*</span></label>
+            <input type="text" class="form-control validate"  required>
+          </div>
+          <h3 class="text-center">Payment Method</h3>
+          <div class="md-form">
+            <select class='form-control' name='gender' id="pay1"  required>
+              <option value="" disabled selected hidden>--Payment Method--</option>
+              <option value="1">Cash On Delivery</option>
+              <option value="2">Gcash</option>
+              <option value="3">Debit/Credit Card</option>
+              <option value="4">Paymaya</option>
+            </select>
+          </div>
+          <div class="text-center mt-3">
+            <button type="submit" class="btn btn-primary btn-block z-depth-1a">SUBMIT</button>
+          </div>
+        </div>
+    </div>
+  </form>
+  </div>
+</div>
+</div>
+
+ <!----------- DEBIT CREDIT MODAL ---------------->
+ <div class="modal fade" id="debitModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- username, lname, fname, gender, phone, user_type_id -->
+
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold">CARD INFORMATION</h3>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-lable="close">&times;</button>
+      </div>
+     
+        <div class="modal-body mx-4">
+          <div class="md-form">
+            <label data-error="wrong" data-success="right">Card Number</label>
+            <span class="text-danger">*</span></label>
+            <input type="text" class="form-control validate" placeholder="1234 3213 2313 3213" required><br>
+          </div>
+          <div class="md-form">
+            <span class="text-danger">*</span></label>
+            <input type="text" class="form-control validate" id="cp_re_new_password" placeholder="Expiration Date(MM/YY)" required>
+          </div>
+          <div class="md-form">
+            <div class="md-form">
+           
+              <span class="text-danger">*</span></label>
+              <input type="text" class="form-control validate" placeholder="CVV/CVC" required>
+            </div>
+            <div class="md-form">
+           
+            <span class="text-danger">*</span></label>
+            <input type="text" class="form-control validate" placeholder="Full Name" required>
+          </div>
+      
+          <div class="text-center mt-3">
+            <button type="submit" class="btn btn-primary btn-block z-depth-1a" onclick="buySubmit1()">SUBMIT</button>
+          </div>
+        </div>
+    </div>
+ 
+  </div>
+</div>
+
+
+
+
+
+
+<script>
+  $('#form1').submit(function(e){
+        e.preventDefault()
+        let pay = $('#pay1').val()
+
+      if(pay == "3"){
+        $('#buyInfo').modal('hide');
+       $('#debitModal').modal('show');
+      }
+      else{
+
+      swal('Order Placed', '', 'success');
+          $("#buyModal").modal('hide')
+          $("#buyInfo").modal('hide')
+          
+          setTimeout("location.href = '../index.html';", 2500);
+      }
+  })
+
+  // buy information button
+  function buyInfo() {
+    $('#buyInfo').modal('show')
+    $('#buyModal').modal('hide') 
+  }
+
+  //click button buy now
+  function buyNowClick() {
+    $('#buyModal').modal('show') 
+  }
+
+  //submit buy now
+  function buySubmit1(){
+    swal('Order Placed', '', 'success');
+    $("#buyModal").modal('hide')
+    $("#buyInfo").modal('hide')
+    $('#debitModal').modal('hide');
+    
+    setTimeout("location.href = '../index.html';", 2500);
+  
+}
+
+  // cart Buttons
+  function buttonClick() {
+    swal('Added to Cart', '', 'success');
+    $("#First").modal('hide');
+  }
+  function buttonClick2() {
+    swal('Added to Cart', '', 'success');
+    $("#Second").modal('hide');
+  }
+  function buttonClick3() {
+    swal('Added to Cart', '', 'success');
+    $("#Third").modal('hide');
+  }
+  function buttonClick4() {
+    swal('Added to Cart', '', 'success');
+    $("#Fourth").modal('hide');
+  }
+  function buttonClick5() {
+    swal('Added to Cart', '', 'success');
+    $("#Fifth").modal('hide');
+  }
+  function buttonClick6() {
+    swal('Added to Cart', '', 'success');
+    $("#Six").modal('hide');
+  }
+  function buttonClick7() {
+    swal('Added to Cart', '', 'success');
+    $("#seven").modal('hide');
+  }
+  function buttonClick8() {
+    swal('Added to Cart', '', 'success');
+    $("#eight").modal('hide');
+  }
+  function buttonClick9() {
+    swal('Added to Cart', '', 'success');
+    $("#nine").modal('hide');
+  }
+  function buttonClick10() {
+    swal('Added to Cart', '', 'success');
+    $("#ten").modal('hide');
+  }
+  function buttonClick11() {
+    swal('Added to Cart', '', 'success');
+    $("#eleven").modal('hide');
+  }
+  function buttonClick12() {
+    swal('Added to Cart', '', 'success');
+    $("#twelve").modal('hide');
+  }
+  function buttonClick13() {
+    swal('Added to Cart', '', 'success');
+    $("#thirteen").modal('hide');
+  }
+  function buttonClick14() {
+    swal('Added to Cart', '', 'success');
+    $("#fourteen").modal('hide');
+  }
+  function buttonClick15() {
+    swal('Added to Cart', '', 'success');
+    $("#fifteen").modal('hide');
+  }
+  function buttonClick16() {
+    swal('Added to Cart', '', 'success');
+    $("#sixteen").modal('hide');
+  }
+  function buttonClick17() {
+    swal('Added to Cart', '', 'success');
+    $("#seventeen").modal('hide');
+  }
+  function buttonClick18() {
+    swal('Added to Cart', '', 'success');
+    $("#eighteen").modal('hide');
+  }
+  function buttonClick19() {
+    swal('Added to Cart', '', 'success');
+    $("#nineteen").modal('hide');
+  }
+  function buttonClick20() {
+    swal('Added to Cart', '', 'success');
+    $("#twenty").modal('hide');
+  }
+  function buttonClick21() {
+    swal('Added to Cart', '', 'success');
+    $("#twentyone").modal('hide');
+  }
+
+
+  const plus = document.querySelector(".plus"),
+    minus = document.querySelector(".minus"),
+    num = document.querySelector(".num");
+  let a = 1;
+  plus.addEventListener("click", () => {
+    a++;
+    a = (a < 10) ? "0" + a : a;
+    num.innerText = a;
+  });
+
+  minus.addEventListener("click", () => {
+    if (a > 1) {
+      a--;
+      a = (a < 10) ? "0" + a : a;
+      num.innerText = a;
+    }
+  });
+
+
+</script>
