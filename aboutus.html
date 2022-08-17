@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="shortcut icon" href="images/lazana-modified.png" type="image/x-icon">
+    <link rel="stylesheet" href="style1.css">
     <title>LAZAÑA</title>
     <style>
         .nav-item:hover {
@@ -72,45 +73,54 @@
     </nav><br>
 
 
-        <div class="container text-center">
-            <img src="images/lazana-modified.png" alt="" width="30%"><br>
-            <h1 class="fw-bold text-dark" style="margin-top: -100px; font-size: 60px;">LAZAÑA</h1><br><br>
-            <p>Lazaña is a company developing an online shopping and selling marketplace. The Company offers products from a number of categories, including mens products, womens, kids, laptops and mobile phones.</p>
+    <section>
+   
+        <div class = "image container">
+           
+         <img src="images/lazana-modified.png" alt="" width="90%">
+         
         </div>
-        <hr>
+        
 
-        <div class="container">
-            <h1 class="text-center">PAYMENT METHODS</h1>
-            <div class="d-flex container" style="margin-left: 32%;">
-             <img src="images/visa.png" alt="" width="10%" style="margin-right: 20px;">
-             <img src="images/gcash.png" alt="" width="10%"style="margin-right: 20px;">
-             <img src="images/paymaya.jpg" alt="" width="10%"style="margin-right: 20px;">
-            </div>
-        </div><br><hr>
+        <div class = "content">
+            <h2>About Us</h2>
+            <span><!-- line here --></span>
 
+          
+            <p>Lazaña is a company developing an online shopping and selling marketplace. The Company offers products from a number of categories, including mens products, womens, kids, laptops and mobile phones.</p>
+            <ul class = "links">
+                <li><a href = "#" onclick="contact1()">contact</a></li>
+            </ul>
+            <ul class = "icons">
+                <li>
+                    <i class = "fa fa-twitter"></i>
+                </li>
+                <li>
+                    <i class = "fa fa-facebook"></i>
+                </li>
+                <li>
+                    <i class = "fa fa-github"></i>
+                </li>
+                <li>
+                    <i class = "fa fa-pinterest"></i>
+                </li>
+                <img src="images/payment.png" alt="" width="50%" style="margin-left: 10%;">
+            </ul>
+         
+        </div>
 
-        <footer id="footer">
+    </section><br><br>
 
-            <div class="brandss text-center">
-        
-              <a href="#"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        
-              <a href="#"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        
-              <a href="#"> <i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        
-              <a href="#"> <i class="fa fa-envelope"></i></a>
-        
-            </div>
-        
-            <div class="copyright text-center">
-              <p>© Copyright Lazaña</p>
-            </div>
-          </footer>
-
+  
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/sweetalert.min.js"></script>
     <script src="bootstrap/bootstrap.bundle.min.js" charset="utf-8"></script>
 </body>
 
 </html>
+
+<script>
+    function contact1(){
+        swal('Lazaña@gmail.com', 'Contact Us', 'info');
+    }
+</script>
